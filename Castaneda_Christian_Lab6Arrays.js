@@ -20,7 +20,15 @@
            console.log("The " + footballTeams[i] + " are a football team in the National Football League and their hometown is " + teamCitys[i] + ".");
         };    
         
-      
+        footballTeams.push("Chiefs");
+        teamCitys.push("Kansas City");
+        
+        console.log("Another team in the NFL is the " + teamCitys[10] + " " + footballTeams[10] + ".\nSo, ");
+        
+         for (i = 0; i < footballTeams.length; i++)
+        {
+           console.log("The " + footballTeams[i] + " are a football team in the National Football League and their hometown is " + teamCitys[i] + ".");
+        };    
                                         
     };
 
